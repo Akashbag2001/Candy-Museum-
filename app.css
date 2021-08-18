@@ -1,0 +1,46 @@
+body{
+    background-color: #8DB98D;
+    font-family: "nunito", sans-serif;
+}
+#mainNavbar .navbar-brand{
+    color:#22577a;
+}
+#mainNavbar{
+    font-size: 1.5rem;
+    font-weight: 100;
+}
+#mainNavbar .nav-link{
+    color: white;
+}
+#mainNavbar .nav-link:hover{
+    color:black;
+}
+#headinggrp h2{
+    font-family: 'Lobster', cursive;
+    color: #e7ecef;
+    font-size: 3rem;
+    
+}
+@media (maxwidth:600px) {
+    #headinggrp h2{
+        
+        font-size: 1rem;
+}
+}
+.sub{
+    color: #e63946;
+    font-weight: 100;
+}
+.lead{
+    color: #fad2e1;
+}
+
+.sec{
+    margin-bottom: 100px;
+    margin-top:100px ;
+}
+.navbar.scrolled {
+    background-image: linear-gradient(to right, #dcafaf, #e6b7a6, #e6c29f, #decf9d, #cddea5);
+    transition: background 500ms;
+}
+
